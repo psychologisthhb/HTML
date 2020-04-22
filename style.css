@@ -1,0 +1,12 @@
+a{text-decoration: none; color: indigo;}
+h1{font-size: 60px; text-align: center; color: blue; border-bottom: 1px solid gray; margin: 0; padding-bottom: 21px;}
+h2{font-size: 40px; text-align: center;}
+ol{border-right: 1px solid gray; width:160px; margin: 0;
+  padding-top: 20px; padding-bottom: 50px; padding-left: 50px; padding-right: 0px;}
+
+.active{color: black;}
+.class{color: blue;}
+#grid{display: grid; grid-template-columns: 240px 1fr;}
+#grid #article{}
+@media(max-width:800px) {#grid{display: block;}
+ol{border-right:none;} h1{border-bottom:none;} }
